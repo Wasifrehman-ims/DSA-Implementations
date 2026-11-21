@@ -6,7 +6,6 @@ int main() {
     int n = 5;
     int low = 0;
     int high = n - 1;
-
     while (low < high) {
         int temp = arr[low];
         arr[low] = arr[high];
@@ -14,7 +13,6 @@ int main() {
         low++;
         high--;
     }
-
     cout << "Reversed array: ";
     for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
